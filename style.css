@@ -1,0 +1,138 @@
+*{
+    font-family: Poppins;
+    text-align: center;
+}
+#skillhealth img{
+    display: block;
+}
+head{
+    position: fixed;
+    display: inline-flex;
+}
+
+.head ul{
+    list-style: none;
+    background-color: #B40000;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    right: 20px;
+}
+
+.head li{
+    display: inline-block;
+}
+
+.head a{
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 25 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align:center;
+    width: 300px;
+
+}
+#skillhealth img{
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#skillhealth{
+    font-size: 40px;
+}
+#description{
+    font-size: 25px;
+}
+
+.head a:hover{
+    background: silver;
+}
+
+#skillhealth{
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+    padding: 3px 3px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #B40000;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: transform 0.3s ease-in-out;
+    text-align: left;
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus {
+    transform: scale(1.02);
+    /* Efek scaling saat fokus */
+}
+
+#check {
+    font-size: 18px;
+    display: block;
+    margin-top: 20px;
+}
+
+input[type="checkbox"] {
+    margin-top: 5px;
+}
+
+button {
+    padding: 9px 10px;
+    background-color: #B40000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 10px;
+    display: inline-flex;
+ 
+}
+
+button:hover {
+    transform: translateY(-3px);
+    /* Efek angkat saat hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #B40000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 30px 0;
+    text-align: right;
+    margin-top: 10px
+}
+
+footer ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+footer ul li{
+    text-align: left;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
